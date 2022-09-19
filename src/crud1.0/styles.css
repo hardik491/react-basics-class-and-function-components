@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+a:hover, .btn:hover {
+  cursor: pointer;
+}
+
+.form-group {
+  margin: 1em 3em;
+}
+
+.form-control {
+  padding: .6em 1.8em .6em 1.3em;
+  font-size: 16px;
+  width: 14%;
+  border-radius: 7px;
+  border: 1px solid rgb(207, 207, 223);
+  outline: none;
+  margin:5px;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 4px rgb(175, 170, 179);
+}
+
+.button-group {
+  margin: 1em 0;
+}
+
+.btn {
+  padding: .7em 4.5em;
+  border:unset;
+  color: white;
+  border-radius: 8px;
+  outline: none;
+  margin:.2em;
+  box-shadow: 0 0 2px grey;
+}
+
+.btn:hover {
+  filter:brightness(85%);
+  box-shadow: 0 0 4px black;
+}
+
+.btn:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.btn-success {
+  background-color: green;
+}
+
+.btn-primary {
+  background-color: blue;
+}
+
+.btn-danger {
+  background-color: rgb(192, 29, 29);
+}
+
+.table {
+  border: 1px solid black;
+  width: 60%;
+}
+
+.table > tr > td, .table > tr > th {
+  border: 1px solid grey;
+  padding: 1em 0.5em;
+  font-size: 16px;
+  text-align: center;
+
+}
+
+.table > tr > td:last-child {
+  display: flex;
+  justify-content: space-around;
+}
+
+.table > tr:nth-child(even) {
+  background-color: rgb(233, 231, 231);
+}
+
+.link-button {
+  color:red;
+}
